@@ -1,0 +1,37 @@
+$desktop: '(min-width: 1200px)'
+$tablet: '(min-width: 620px) and (max-width: 1200)'
+$phone: '(max-width: 1200px)'
+
+.solutions
+    display: flex
+    align-items: center
+    justify-content: center
+    width: 100%
+    height: 930px
+    background: #87c8f3
+
+.solutions__c-wrapper
+    display: flex
+    flex-direction: column
+    width: 1170px
+
+.solutions__title
+    width: 650px
+    margin: auto
+        bottom: 50px
+
+.solution__items
+    display: flex
+    justify-content: space-between
+
+
+@media #{$phone}
+    .solution__items
+
+    .solutions__c-wrapper
+        width: 100%
+        padding: 0 10px
+
+    .solutions__title
+        width: 100%
+

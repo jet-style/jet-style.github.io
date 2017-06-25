@@ -1,0 +1,27 @@
+.burger-menu__icon
+    display: block
+    width: 24px
+    height: 20px
+    background: url('../img/burger-menu__icon.png') no-repeat center
+    background-size: contain
+
+.burger-menu__under
+    position: absolute
+    top: -600px
+    left: 0px
+    right: 0px
+    width: 100%
+    height: auto
+    padding: 40px
+    background: rgba(#000, .8)
+    z-index: 10
+    transition: top .6s ease
+
+    p
+        color: #fff
+        text-align: center
+        font-size: .9rem
+
+.burger-menu__icon:active ~ .burger-menu__under
+.burger-menu__icon:focus ~ .burger-menu__under
+    top: 60px

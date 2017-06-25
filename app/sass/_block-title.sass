@@ -1,0 +1,17 @@
+$desktop: '(min-width: 1200px)'
+$tablet: '(min-width: 620px) and (max-width: 1200)'
+$phone: '(max-width: 1200px)'
+
+.block-title
+    text-transform: uppercase
+    font-size: 2rem
+    color: #4a4a4a
+    text-align: center
+    line-height: 1.5
+
+.block-title_light
+    color: #fff
+
+@media #{$phone}
+    .block-title
+        font-size: 1.5rem
