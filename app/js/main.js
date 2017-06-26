@@ -20,6 +20,7 @@ $( '.solution__items' ).owlCarousel( {
     responsive: {
 
         0: {items: 1},
+        900: {items: 3},
         1200: {items: 3}
 
     }
