@@ -824,6 +824,7 @@
         -ms-flex-align: center;
             align-items: center;
     margin: auto;
+    max-width: 400px;
   }
   .slide .slide__title {
     margin-bottom: 260px;
